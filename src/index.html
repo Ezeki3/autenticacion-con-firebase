@@ -60,13 +60,17 @@
 
                     <form id="signin-form">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control mb-3" placeholder="Email" required>
+                        <input type="email" id="login-email" class="form-control mb-3" placeholder="Email" required>
 
                         <label for="password">Password:</label>
-                        <input type="password" class="form-control mb-3" placeholder="******" required>
+                        <input type="password" id="login-password" class="form-control mb-3" placeholder="******"
+                            required>
 
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="submit" class="btn btn-primary w-100 mb-4">Login</button>
                     </form>
+
+                    <button type="button" id="googleLogin" class="btn btn-info">Google</button>
+                    <button type="button" id="facebookLogin" class="btn btn-primary">Facebook</button>
                 </div>
             </div>
         </div>
